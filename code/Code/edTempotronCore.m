@@ -7,7 +7,7 @@ function [NeuronsTgt,NeuronsOut,numCorrectSlices,numTotSlices,numCorrectFireSlic
         numCorrectSlices,numTotSlices,numCorrectFireSlices,...
         numTotFireSlices,numTotNonFireSlices,numCorrectNonFireSlices,...
         IsTraining,lmd,mu,weights,dw_Past)
-%# codegen
+%#codegen
 
         
         for pp = randperm(size(SpkTimings,2))
