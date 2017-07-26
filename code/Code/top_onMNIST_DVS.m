@@ -119,8 +119,7 @@ end
 load (CINsfile,'NumCINs')   % note: CIN in ns
 
 
-
-
+NumCINs = NumCINs/100;
 %%
 
 file = [folder0, '/', 'THs.mat'];
